@@ -20,8 +20,8 @@ authors:
     affiliation: >-
       Darwin Deason Institute for Cyber Security and Department of Electrical
       and Computer Engineering, Southern Methodist University
-version: "20.6"
-date-released: "2026-08-31"
+version: "20.7"
+date-released: "2026-09-01"
 license: MIT
 url: "https://github.com/mitch-thornton/locked-logic-key-counting"
 repository-code: "https://github.com/mitch-thornton/locked-logic-key-counting"
@@ -33,9 +33,7 @@ keywords:
   - decision diagrams
   - netlist
   - ISCAS-85
-# A Zenodo DOI for the archived software release will be added here once the
-# repository is deposited (replace the field below with the minted DOI):
-# doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.22218068"
 preferred-citation:
   type: article
   title: "A Version Space Approach for Digital Circuit Analysis"

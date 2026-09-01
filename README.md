@@ -10,7 +10,10 @@ Computer Engineering, Southern Methodist University.
 
 Repository: <https://github.com/mitch-thornton/locked-logic-key-counting>
 
-A Zenodo DOI for the archived release will be added here once deposited.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22218068.svg)](https://doi.org/10.5281/zenodo.22218068)
+
+Archived releases: DOI [10.5281/zenodo.22218068](https://doi.org/10.5281/zenodo.22218068),
+which always resolves to the latest archived version.
 
 ## This repository contains
 
@@ -242,6 +245,12 @@ multiplier netlists reproduce byte-for-byte from
     ├── engineB_cudd.c          the counting engine on CUDD
     └── Makefile                make CUDD=/path/to/cudd-3.0.0
 ```
+
+## What's new in v20.7
+
+- **Zenodo DOI recorded.** The archived-release DOI 10.5281/zenodo.22218068 is
+  now in `CITATION.cff` and badged above; it resolves to the latest archived
+  version, and each release carries its own version DOI on Zenodo.
 
 ## What's new in v20.6
 
