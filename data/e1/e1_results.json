@@ -1,0 +1,549 @@
+{
+ "seed": 20260827,
+ "widths": [
+  {
+   "bench": "mult4",
+   "lock": "rll",
+   "K": 8,
+   "t": 4,
+   "factor_width": 6,
+   "key_moral_width": 6,
+   "V_t": 4
+  },
+  {
+   "bench": "mult4",
+   "lock": "rll",
+   "K": 16,
+   "t": 4,
+   "factor_width": 12,
+   "key_moral_width": 13,
+   "V_t": 64
+  },
+  {
+   "bench": "mult4",
+   "lock": "rll",
+   "K": 24,
+   "t": 4,
+   "factor_width": 14,
+   "key_moral_width": 20,
+   "V_t": 2048
+  },
+  {
+   "bench": "mult4",
+   "lock": "rll",
+   "K": 32,
+   "t": 4,
+   "factor_width": 10,
+   "key_moral_width": 24,
+   "V_t": 786432
+  },
+  {
+   "bench": "mult4",
+   "lock": "sll",
+   "K": 8,
+   "t": 4,
+   "factor_width": 11,
+   "key_moral_width": 7,
+   "V_t": 1
+  },
+  {
+   "bench": "mult4",
+   "lock": "sll",
+   "K": 16,
+   "t": 4,
+   "factor_width": 21,
+   "key_moral_width": 15,
+   "V_t": 4
+  },
+  {
+   "bench": "mult4",
+   "lock": "sll",
+   "K": 24,
+   "t": 4,
+   "factor_width": 19,
+   "key_moral_width": 23,
+   "V_t": 3360
+  },
+  {
+   "bench": "mult4",
+   "lock": "sll",
+   "K": 32,
+   "t": 4,
+   "factor_width": 25,
+   "key_moral_width": 31,
+   "V_t": null
+  },
+  {
+   "bench": "mult4",
+   "lock": "point",
+   "K": 8,
+   "t": 4,
+   "factor_width": 7,
+   "key_moral_width": 7,
+   "V_t": 252
+  },
+  {
+   "bench": "mult4",
+   "lock": "point",
+   "K": 16,
+   "t": 4,
+   "factor_width": 9,
+   "key_moral_width": 15,
+   "V_t": 65532
+  },
+  {
+   "bench": "mult4",
+   "lock": "point",
+   "K": 24,
+   "t": 4,
+   "factor_width": 10,
+   "key_moral_width": 23,
+   "V_t": 16777212
+  },
+  {
+   "bench": "mult4",
+   "lock": "point",
+   "K": 32,
+   "t": 4,
+   "factor_width": 9,
+   "key_moral_width": 31,
+   "V_t": 4294967292
+  },
+  {
+   "bench": "adder8",
+   "lock": "rll",
+   "K": 8,
+   "t": 4,
+   "factor_width": 4,
+   "key_moral_width": 3,
+   "V_t": 4
+  },
+  {
+   "bench": "adder8",
+   "lock": "rll",
+   "K": 16,
+   "t": 4,
+   "factor_width": 5,
+   "key_moral_width": 7,
+   "V_t": 32
+  },
+  {
+   "bench": "adder8",
+   "lock": "rll",
+   "K": 24,
+   "t": 4,
+   "factor_width": 5,
+   "key_moral_width": 7,
+   "V_t": 4096
+  },
+  {
+   "bench": "adder8",
+   "lock": "rll",
+   "K": 28,
+   "t": 4,
+   "factor_width": 2,
+   "key_moral_width": 1,
+   "V_t": 1048576
+  },
+  {
+   "bench": "adder8",
+   "lock": "sll",
+   "K": 8,
+   "t": 4,
+   "factor_width": 5,
+   "key_moral_width": 7,
+   "V_t": 2
+  },
+  {
+   "bench": "adder8",
+   "lock": "sll",
+   "K": 16,
+   "t": 4,
+   "factor_width": 7,
+   "key_moral_width": 15,
+   "V_t": 16
+  },
+  {
+   "bench": "adder8",
+   "lock": "sll",
+   "K": 24,
+   "t": 4,
+   "factor_width": 5,
+   "key_moral_width": 23,
+   "V_t": 2304
+  },
+  {
+   "bench": "adder8",
+   "lock": "sll",
+   "K": 28,
+   "t": 4,
+   "factor_width": 6,
+   "key_moral_width": 27,
+   "V_t": 576
+  },
+  {
+   "bench": "adder8",
+   "lock": "point",
+   "K": 8,
+   "t": 4,
+   "factor_width": 7,
+   "key_moral_width": 7,
+   "V_t": 252
+  },
+  {
+   "bench": "adder8",
+   "lock": "point",
+   "K": 16,
+   "t": 4,
+   "factor_width": 9,
+   "key_moral_width": 15,
+   "V_t": 65532
+  },
+  {
+   "bench": "adder8",
+   "lock": "point",
+   "K": 24,
+   "t": 4,
+   "factor_width": 9,
+   "key_moral_width": 23,
+   "V_t": 16777212
+  },
+  {
+   "bench": "adder8",
+   "lock": "point",
+   "K": 32,
+   "t": 4,
+   "factor_width": 10,
+   "key_moral_width": 31,
+   "V_t": 4294967292
+  },
+  {
+   "bench": "cmp8",
+   "lock": "rll",
+   "K": 8,
+   "t": 4,
+   "factor_width": 3,
+   "key_moral_width": 2,
+   "V_t": 192
+  },
+  {
+   "bench": "cmp8",
+   "lock": "rll",
+   "K": 14,
+   "t": 4,
+   "factor_width": 2,
+   "key_moral_width": 1,
+   "V_t": 4096
+  },
+  {
+   "bench": "cmp8",
+   "lock": "rll",
+   "K": 14,
+   "t": 4,
+   "factor_width": 2,
+   "key_moral_width": 1,
+   "V_t": 8192
+  },
+  {
+   "bench": "cmp8",
+   "lock": "rll",
+   "K": 14,
+   "t": 4,
+   "factor_width": 2,
+   "key_moral_width": 1,
+   "V_t": 12288
+  },
+  {
+   "bench": "cmp8",
+   "lock": "sll",
+   "K": 8,
+   "t": 4,
+   "factor_width": 8,
+   "key_moral_width": 7,
+   "V_t": 252
+  },
+  {
+   "bench": "cmp8",
+   "lock": "sll",
+   "K": 14,
+   "t": 4,
+   "factor_width": 9,
+   "key_moral_width": 13,
+   "V_t": 1100
+  },
+  {
+   "bench": "cmp8",
+   "lock": "sll",
+   "K": 14,
+   "t": 4,
+   "factor_width": 8,
+   "key_moral_width": 13,
+   "V_t": 438
+  },
+  {
+   "bench": "cmp8",
+   "lock": "sll",
+   "K": 14,
+   "t": 4,
+   "factor_width": 7,
+   "key_moral_width": 13,
+   "V_t": 320
+  },
+  {
+   "bench": "cmp8",
+   "lock": "point",
+   "K": 8,
+   "t": 4,
+   "factor_width": 7,
+   "key_moral_width": 7,
+   "V_t": 252
+  },
+  {
+   "bench": "cmp8",
+   "lock": "point",
+   "K": 16,
+   "t": 4,
+   "factor_width": 9,
+   "key_moral_width": 15,
+   "V_t": 65532
+  },
+  {
+   "bench": "cmp8",
+   "lock": "point",
+   "K": 24,
+   "t": 4,
+   "factor_width": 10,
+   "key_moral_width": 23,
+   "V_t": 16777212
+  },
+  {
+   "bench": "cmp8",
+   "lock": "point",
+   "K": 32,
+   "t": 4,
+   "factor_width": 9,
+   "key_moral_width": 31,
+   "V_t": 4294967292
+  }
+ ],
+ "trajectory": [
+  {
+   "bench": "adder8",
+   "lock": "rll",
+   "K": 24,
+   "points": [
+    {
+     "t": 1,
+     "V_t": 98304,
+     "factor_width": 2,
+     "seconds": 0.001
+    },
+    {
+     "t": 2,
+     "V_t": 98304,
+     "factor_width": 3,
+     "seconds": 0.002
+    },
+    {
+     "t": 3,
+     "V_t": 49152,
+     "factor_width": 4,
+     "seconds": 0.004
+    },
+    {
+     "t": 4,
+     "V_t": 16384,
+     "factor_width": 5,
+     "seconds": 0.006
+    },
+    {
+     "t": 5,
+     "V_t": 16384,
+     "factor_width": 5,
+     "seconds": 0.008
+    },
+    {
+     "t": 6,
+     "V_t": 8192,
+     "factor_width": 5,
+     "seconds": 0.011
+    },
+    {
+     "t": 7,
+     "V_t": 8192,
+     "factor_width": 5,
+     "seconds": 0.015
+    },
+    {
+     "t": 8,
+     "V_t": 8192,
+     "factor_width": 5,
+     "seconds": 0.018
+    },
+    {
+     "t": 9,
+     "V_t": 8192,
+     "factor_width": 5,
+     "seconds": 0.025
+    },
+    {
+     "t": 10,
+     "V_t": 8192,
+     "factor_width": 5,
+     "seconds": 0.031
+    },
+    {
+     "t": 11,
+     "V_t": 8192,
+     "factor_width": 5,
+     "seconds": 0.037
+    },
+    {
+     "t": 12,
+     "V_t": 8192,
+     "factor_width": 5,
+     "seconds": 0.044
+    }
+   ]
+  },
+  {
+   "bench": "adder8",
+   "lock": "sll",
+   "K": 24,
+   "points": [
+    {
+     "t": 1,
+     "V_t": 131072,
+     "factor_width": 2,
+     "seconds": 0.004
+    },
+    {
+     "t": 2,
+     "V_t": 12288,
+     "factor_width": 3,
+     "seconds": 0.008
+    },
+    {
+     "t": 3,
+     "V_t": 48,
+     "factor_width": 4,
+     "seconds": 0.015
+    },
+    {
+     "t": 4,
+     "V_t": 6,
+     "factor_width": 6,
+     "seconds": 0.03
+    },
+    {
+     "t": 5,
+     "V_t": 3,
+     "factor_width": 9,
+     "seconds": 0.063
+    },
+    {
+     "t": 6,
+     "V_t": 3,
+     "factor_width": 12,
+     "seconds": 0.134
+    },
+    {
+     "t": 7,
+     "V_t": 3,
+     "factor_width": 13,
+     "seconds": 0.199
+    },
+    {
+     "t": 8,
+     "V_t": 1,
+     "factor_width": 15,
+     "seconds": 0.494
+    },
+    {
+     "t": 9,
+     "V_t": 1,
+     "factor_width": 17,
+     "seconds": 3.364
+    },
+    {
+     "t": 10,
+     "V_t": 1,
+     "factor_width": 18,
+     "seconds": 7.31
+    },
+    {
+     "t": 11,
+     "V_t": 1,
+     "factor_width": 19,
+     "seconds": 15.85
+    },
+    {
+     "t": 12,
+     "V_t": 1,
+     "factor_width": 20,
+     "seconds": 34.865
+    }
+   ]
+  },
+  {
+   "bench": "adder8",
+   "lock": "point",
+   "K": 24,
+   "points": [
+    {
+     "t": 1,
+     "V_t": 16777215,
+     "factor_width": 2,
+     "seconds": 0.004
+    },
+    {
+     "t": 2,
+     "V_t": 16777214,
+     "factor_width": 3,
+     "seconds": 0.008
+    },
+    {
+     "t": 3,
+     "V_t": 16777213,
+     "factor_width": 5,
+     "seconds": 0.015
+    },
+    {
+     "t": 4,
+     "V_t": 16777212,
+     "factor_width": 11,
+     "seconds": 0.045
+    },
+    {
+     "t": 5,
+     "V_t": 16777211,
+     "factor_width": 13,
+     "seconds": 0.121
+    },
+    {
+     "t": 6,
+     "V_t": 16777210,
+     "factor_width": 17,
+     "seconds": 1.674
+    },
+    {
+     "t": 7,
+     "V_t": 16777209,
+     "factor_width": 17,
+     "seconds": 2.209
+    },
+    {
+     "t": 8,
+     "V_t": null,
+     "factor_width": 23,
+     "seconds": 5.159
+    }
+   ]
+  }
+ ],
+ "note": "generated benchmark netlists; locking schemes are reimplementations in the style of RLL, SLL and the point-function family, not the original authors' code",
+ "validation": {
+  "cases": 81,
+  "mismatches": 0
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "source": "Trust-Hub obfuscation benchmark release",
+ "url": "https://trust-hub.org/",
+ "note": "The benchmark archives are third-party and are not vendored into this bundle.  Download the obfuscation set from Trust-Hub and confirm these digests before reproducing E.2.",
+ "instances": [
+  {
+   "instance": "c1355-CS320",
+   "file": "c1355-CS320.zip",
+   "bytes": 11589,
+   "sha256": "f3eeb49b453d0e20b0f095ada42b1075cfc2a7796368d799bf987980003a37e8"
+  },
+  {
+   "instance": "c1355-RN320",
+   "file": "c1355-RN320.zip",
+   "bytes": 11892,
+   "sha256": "aebdd1daaeaa799150ec1eb60262708408935ea9a49743c47276e0ca8e1bf116"
+  },
+  {
+   "instance": "c1355-RN640",
+   "file": "c1355-RN640.zip",
+   "bytes": 13448,
+   "sha256": "9ff497066a16a0764a3ce858fdb84ff14e75b6d3deb31b9d9941e9a93fd5d987"
+  },
+  {
+   "instance": "c1355-SL320",
+   "file": "c1355-SL320.zip",
+   "bytes": 11755,
+   "sha256": "f6511898a6db38e1be55b8ceaf0de4dc9c775fd1ea60a95fa4d9c3de75da1628"
+  },
+  {
+   "instance": "c1355-SL640",
+   "file": "c1355-SL640.zip",
+   "bytes": 13388,
+   "sha256": "d55a85c5c4a3332f3a8dcfc7543141a14bbac27f46da19645e17bd258c1875bc"
+  },
+  {
+   "instance": "c432-CS320",
+   "file": "c432-CS320.zip",
+   "bytes": 6566,
+   "sha256": "5befca95feaaf191948cca93107210c6f31ba09a3045fb59ed72120c66502986"
+  },
+  {
+   "instance": "c432-RN320",
+   "file": "c432-RN320.zip",
+   "bytes": 6723,
+   "sha256": "8aea80013b82b353e5a66774a3d52b1d05f3d969934f3f49d79ae884ee7938b3"
+  },
+  {
+   "instance": "c432-RN640",
+   "file": "c432-RN640.zip",
+   "bytes": 8284,
+   "sha256": "2c6f190debac2a117faa295d6895c3ef0cbf321df3f62c02db0de4b7df1cf89c"
+  },
+  {
+   "instance": "c432-SL320",
+   "file": "c432-SL320.zip",
+   "bytes": 6827,
+   "sha256": "a51bb4829e75524ea10f17cfc8196e0c705633243407db9874e8f3e810030a4c"
+  },
+  {
+   "instance": "c432-SL640",
+   "file": "c432-SL640.zip",
+   "bytes": 8018,
+   "sha256": "86ff1015f0ec14d70cc90eb0bb4e6e819ee4e4e12e8f93566c8a68b6480022d7"
+  },
+  {
+   "instance": "c880-RN320",
+   "file": "c880-RN320.zip",
+   "bytes": 10719,
+   "sha256": "9b7113c0dbcba443ec11c34b91a5d655573435fd1d17727b422846841754ed44"
+  },
+  {
+   "instance": "c880-RN640",
+   "file": "c880-RN640.zip",
+   "bytes": 12394,
+   "sha256": "9c0aef987bf3eb49cb47eae653a34155ece96736c09371f263ae1630a0e230c2"
+  },
+  {
+   "instance": "c880-SL320",
+   "file": "c880-SL320.zip",
+   "bytes": 10447,
+   "sha256": "9440ca883c129e482acb71e3b7f00a90bdbea3ce3b127d59fcd66973b772018b"
+  },
+  {
+   "instance": "c880-SL640",
+   "file": "c880-SL640.zip",
+   "bytes": 11890,
+   "sha256": "d100977ec4609209c181c60ad300efeab4e4319cce498775c814b396b85b0af7"
+  }
+ ]
+}

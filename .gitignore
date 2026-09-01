@@ -1,0 +1,28 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Built C engine and object files
+c/engineB_cudd
+c/minibdd
+c/*.o
+*.dylib
+*.so
+
+# Experiment outputs written by the drivers
+python/lockcount/results/
+results/
+figures/
+*.tmp
+
+# Downloaded third-party benchmark data (not redistributable; see DATA.md).
+# The repository's own small benchmarks in benchmarks/e1/ ARE tracked.
+OBFUSCATION/
+*.zip
+
+# Editor / OS cruft
+.DS_Store
+.idea/
+.vscode/

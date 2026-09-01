@@ -1,0 +1,4 @@
+# The counting kernel, the verification suite and all experiment drivers use
+# only the Python standard library (itertools, functools, math, json, random).
+# matplotlib is needed only to regenerate figures with make_figures_v8.py.
+matplotlib>=3.5
