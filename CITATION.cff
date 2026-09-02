@@ -20,7 +20,7 @@ authors:
     affiliation: >-
       Darwin Deason Institute for Cyber Security and Department of Electrical
       and Computer Engineering, Southern Methodist University
-version: "20.7"
+version: "20.8"
 date-released: "2026-09-01"
 license: MIT
 url: "https://github.com/mitch-thornton/locked-logic-key-counting"
@@ -42,8 +42,8 @@ preferred-citation:
       given-names: Mitchell A.
       orcid: "https://orcid.org/0000-0003-3559-9511"
   year: 2026
-  # arXiv preprint; the arXiv identifier will be added here once assigned:
-  # identifiers:
-  #   - type: other
-  #     value: "arXiv:XXXX.XXXXX"
-  notes: "arXiv preprint; identifier to be assigned."
+  url: "https://arxiv.org/abs/2609.00609"
+  identifiers:
+    - type: other
+      value: "arXiv:2609.00609"
+  notes: "arXiv preprint, primary class cs.CR."

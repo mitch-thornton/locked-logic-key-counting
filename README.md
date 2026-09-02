@@ -3,7 +3,7 @@
 Companion code for the version-space key-counting results in:
 
 > M. A. Thornton, "A Version Space Approach for Digital Circuit Analysis,"
-> arXiv preprint arXiv:XXXX.XXXXX, 2026. (arXiv identifier to be assigned.)
+> arXiv:2609.00609 [cs.CR], 2026. <https://arxiv.org/abs/2609.00609>
 
 Darwin Deason Institute for Cyber Security and Department of Electrical and
 Computer Engineering, Southern Methodist University.
@@ -246,6 +246,12 @@ multiplier netlists reproduce byte-for-byte from
     └── Makefile                make CUDD=/path/to/cudd-3.0.0
 ```
 
+## What's new in v20.8
+
+- **arXiv identifier recorded.** The companion paper is published as
+  arXiv:2609.00609 [cs.CR]; `README.md` and `CITATION.cff` now cite it by
+  identifier instead of carrying a placeholder.
+
 ## What's new in v20.7
 
 - **Zenodo DOI recorded.** The archived-release DOI 10.5281/zenodo.22218068 is
@@ -452,9 +458,9 @@ and Zenodo will pick up the right metadata automatically. For BibTeX:
   author        = {Thornton, Mitchell A.},
   title         = {A Version Space Approach for Digital Circuit Analysis},
   year          = {2026},
-  eprint        = {XXXX.XXXXX},
+  eprint        = {2609.00609},
   archivePrefix = {arXiv},
-  note          = {arXiv identifier to be assigned}
+  primaryClass  = {cs.CR}
 }
 ```
 
